@@ -13,6 +13,8 @@
     --color-yellow: #fff7d1;
     --color-orange: #feb546;
     --color-black: #000000;
+    --color-seolyu: rgb(56, 2, 32);
+    --color-seolyu2: rgb(175, 216, 255);
 
     /* Font size */
     --font-large: 48px;
@@ -109,7 +111,8 @@ p {
 }
 
 #navbar.navbar--dark {
-    background-color: var(--color-pink);
+    /* background-color: var(--color-pink); */
+    background-color: var(--color-seolyu);
     padding: 4px;
 }
 
@@ -140,7 +143,8 @@ p {
 
 .navbar__menu__item:hover {
     border-color: var(--color-white);
-    background-color: var(--color-dark-pink);
+    /* background-color: var(--color-dark-pink); */
+    background-color: var(--color-seolyu);
 }
 
 .navbar__toggle-btn {
@@ -154,7 +158,7 @@ p {
 
 /* Home */
 #home {
-    background: url("imgs/home-background.png") center/cover no-repeat;
+    background: url("imgs/home-background2.png") center/cover no-repeat;
     padding: 40px;
     padding-top: 120px;
     text-align: center;
@@ -183,7 +187,8 @@ p {
 }
 
 .home__contact:hover {
-    background-color: var(--color-dark-pink);
+    /* background-color: var(--color-dark-pink); */
+    background-color: var(--color-seolyu);
 }
 
 /* Section common */
@@ -223,6 +228,7 @@ p {
 
 .major__icon:hover i {
     color: var(--color-pink);
+    /* background-color: var(--color-dark-grey); */
     transform: rotate(-30deg) scale(1.1);
 }
 
@@ -260,12 +266,13 @@ p {
 
 /* Skill */
 #skills {
-    background-color: var(--color-yellow);
+    /* background-color: var(--color-yellow); */
+    background-color: var(--color-pink);
 }
 
 .skillset {
     display: flex;
-    background-color: var(--color-light-grey);
+    background-color: rgb(153, 73, 118);
     color: var(--color-light-white);
     margin: 20px 0;
 }
@@ -276,12 +283,16 @@ p {
 
 .skillset__left {
     flex-basis: 60%;
-    background-color: var(--color-dark-grey);
+    background-color: rgb(36, 0, 21);
     padding: 20px 40px;
 }
 
 .skill {
     margin-bottom: 32px;
+}
+
+.skill:hover {
+    color: var(--color-seolyu2);
 }
 
 .skill__description {
@@ -292,12 +303,12 @@ p {
 .skill__bar {
     width: 100%;
     height: 3px;
-    background-color: var(--color-grey);
+    background-color: var(--color-pink);
 }
 
 .skill__value {
     height: 3px;
-    background-color: var(--color-orange);
+    background-color: rgb(255, 20, 137);
 }
 
 .skillset__right {
@@ -305,7 +316,7 @@ p {
 }
 
 .tools {
-    background-color: var(--color-grey);
+    background-color: rgb(173, 95, 134);
 }
 
 .tools,
@@ -328,7 +339,8 @@ p {
 
 .category__btn.selected,
 .category__btn:hover {
-    background-color: var(--color-pink);
+    /* background-color: var(--color-pink); */
+    background-color: var(--color-seolyu);
     color: var(--color-white);
 }
 
@@ -389,7 +401,7 @@ p {
 
 .project__description {
     position: absolute;
-    background-color: black;
+    background-color: var(--color-seolyu);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -408,7 +420,7 @@ p {
 }
 
 .project__description h3 {
-    color: var(--color-orange);
+    color: var(--color-seolyu2);
 }
 
 .project__description h3:after {
@@ -467,12 +479,14 @@ p {
 }
 
 .testimonial__speech-bubble a {
-    color: var(--color-pink);
+    /* color: var(--color-pink); */
+    background-color: var(--color-seolyu);
 }
 
 /* Contact */
 #contact {
-    background-color: var(--color-pink);
+    /* background-color: var(--color-pink); */
+    background-color: var(--color-seolyu);
 }
 
 .contact__title,
@@ -542,7 +556,8 @@ p {
     #navbar {
         flex-direction: column;
         align-items: flex-start;
-        background-color: var(--color-pink);
+        /* background-color: var(--color-pink); */
+        background-color: var(--color-seolyu);
     }
 
     #navbar.navbar--dark {
