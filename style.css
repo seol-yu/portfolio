@@ -250,6 +250,26 @@ p {
     align-items: center;
 }
 
+.job i {
+    width: 20px;
+}
+
+.job:hover i {
+    color: var(--color-pink);
+    transition: all var(--animation-duration) ease-in;
+}
+
+.job__42 {
+    background: url('./imgs/jobs/42.png') center/contain no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.job__42:hover {
+    background: url('./imgs/jobs/42-pink.png') center/contain no-repeat;
+    transition: all var(--animation-duration) ease-in;
+}
+
 .job__description {
     margin: 0 16px;
     text-align: left;
