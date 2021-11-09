@@ -288,6 +288,12 @@ p {
     font-size: var(--font-micro);
 }
 
+.job:hover .job__name,
+.job:hover .job__period {
+    color: var(--color-dark-pink);
+    transition: all var(--animation-duration) ease-in;
+}
+
 /* Skill */
 #skills {
     /* background-color: var(--color-yellow); */
@@ -317,6 +323,7 @@ p {
 
 .skill:hover {
     color: var(--color-seolyu2);
+    transition: all var(--animation-duration) ease-in;
 }
 
 .skill__description {
@@ -333,6 +340,11 @@ p {
 .skill__value {
     height: 3px;
     background-color: rgb(255, 20, 137);
+}
+
+.skill:hover .skill__value {
+    background-color: rgb(45, 233, 240);
+    transition: all var(--animation-duration) ease-in;
 }
 
 .skillset__right {
